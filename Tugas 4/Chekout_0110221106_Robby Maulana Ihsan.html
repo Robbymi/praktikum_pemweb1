@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            background-color: lightgrey;height: 99px;
+        }
+        .header-logo{
+            float: left;padding: 10px;
+        }
+        .header-list li{
+            float: left;padding: 35px 5px;list-style: none  
+        }
+        .header-kanan{
+            margin-top: 30px; float: right; margin-right: 2cm;
+        }
+        .header-kanan img{
+            width: 25px; margin-top: 3px
+        }
+        .header-kanan h3{
+            float: right; margin-top: 3px;
+        }
+        .no-order table{
+            margin-top: 20px;
+        }
+        .harga {
+            text-align: right;
+        }
+        .main-kanan table{
+            background-color: lightgrey;height: 200px;width: 250px;margin: 0px 70px 50px 300px;
+        }
+        .main-kanan {
+            background-color: lightgrey;
+        }
+        #isian{
+            border: solid 2px;
+        }
+        #tombol {
+            box-shadow: black 0px 3px 3px 0px;width: 60px;
+        }
+        .ship {
+            width: 337px;text-align: left;
+        }
+        .bill {
+            width: 200px;text-align: left;
+        }
+        .footer{
+            background-color: lightgrey;height: 99px;
+        }
+        .footer-logo{
+            float: left;padding: 20px;
+        }
+        #logo{
+            margin-bottom: 0px;float: left;
+        }
+        #kredit{
+            float: left;margin-top: 30px;
+        }
+        .footer-list{
+            float: left;padding: 10;
+        }
+        .footer-list li{
+            float: left;padding: 20px 5px;list-style: none;
+        }
+        .subscribe{
+            float: right;
+        }
+        .subscribe li{
+            list-style-type: none;
+        }
+        .subscribe button{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <div class="header">
+            <div class="header-logo" style=>
+                <h2>SOPI COD</h2>  
+            </div>
+            <div class="header-list">
+                <ul>
+                    <li><a href="">Category 1</a></li>
+                    <li>|</li>
+                    <li><a href="">Category 2</a></li>
+                    <li>|</li>
+                    <li><a href="">Category 3</a></li>
+                </ul>
+            </div>
+            <div class="header-kanan">
+                <img src="outline_search_black_24dp.png">
+                <img src="outline_shopping_cart_black_24dp.png">
+                <h3>Keranjang</h3>
+            </div>
+        </div>
+        <div class="no-order">
+            <table>
+            <tr>
+                <th rowspan="10">
+                <img width="50px" height="30px" src="https://1.bp.blogspot.com/-ieoIGNs1jT0/XqI3Nwhy31I/AAAAAAAAHrU/EQJAb8-0kmsapuioSW2QbmIbNF9likKuQCNcBGAsYHQ/s640/centang.jpg">
+                </th>
+                <td colspan="3"
+                    rowspan="2">
+                <p>Order 6782342523</p>
+                <h3>Thank You Kenny!</h3>
+                </td>
+            </table>
+        </div>
+    <div class="main-kanan"  align="right">
+        <table align="right">
+            <tr>
+            <td><h3> summary (1 item)</h3></td>
+            </tr>
+            <tr>
+                <td>subtotal</td>
+                <td class="harga">$ 20.00</td>
+            </tr>
+            <tr>
+                <td>shipping</td>
+                <td class="harga">$ 2.20</td>
+            </tr>
+            <tr>
+                <td>est taxes</td>
+                <td class="harga">$ 1.40</td>
+            </tr>
+            <tr>
+                <td><hr></td>
+            </tr>
+            <tr>
+                <td>Gift card or discount code</td>
+            </tr>
+            <tr>
+                <td><input id="isian" type="text"></td>
+                <td><input id="tombol" type="button" value="Apply"></td>
+            </tr>
+            <tr>
+                <td><hr></td>
+            </tr>
+            <tr>
+                <td><b>Total</b></td>
+                <td><b>$ 23.60</b></td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <P>Your ordes is confirmed</P>
+    <p>We're accepted your order and we're getting it ready</p>
+    <hr>
+    <h3>Customer Information</h3>
+    <div>
+        <table>
+            <tr>
+                <th class="ship"><h4>Shipping Address</h4></th>
+                <th class="bill"><h4>Billing Address</h4></th>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Kenny Bostick</h5>
+                    <a href="https://goo.gl/maps/nc4a5Qo9S1kykXbB9" target="_blank">Jl. Setu Indah No.116,<br>
+                        Tugu, Kota Depok,<br>
+                        Jawa Barat 16451</a>
+                </td>
+                <td><h5>Kenny Bostick</h5>
+                    <a href="https://goo.gl/maps/nc4a5Qo9S1kykXbB9" target="_blank">Jl. Setu Indah No.116,<br>
+                        Tugu, Kota Depok,<br>
+                        Jawa Barat 16451</a></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th class="ship"><h4>Shipping Method</h4></th>
+                <th class="bill"><h4>Payment Method</h4></th>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Sicepat Express (Estimated ship<br>
+                        time of 3-6 days)
+                    </p>
+                </td>
+                <td>
+                    <p>VISA 3217 - $23.60</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        <div class="footer-logo">
+            <p id="logo">SOPI COD</p>
+            <div id="kredit">
+                <img width="25px" src="visa.png"></li>
+                <img width="25px" src="mastercard-xxl.png"></li>
+                <img width="25px" src="credit-card.png"></li>
+            </div>
+        </div>
+        <div class="footer-list">
+            <ul>
+                <li><a href="">Category 1</a></li>
+                <li>|</li>
+                <li><a href="">Category 2</a></li>
+                <li>|</li>
+                <li><a href="">Category 3</a></li>
+            </ul>
+        </div>
+        <div class="subscribe">
+            <ul>
+                <li>Stay in touch! Join our Newsletter</li>
+                <li><input type="email" placeholder="Enter Email"><button><b>Subscribe</b>s</button></li>
+            </ul>
+        </div>
+
+    </fieldset>
+</body>
+</html>
