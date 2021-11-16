@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            width: 1000px;
+            margin: auto;
+            margin-top: 10px;
+        }
+        .kuning{
+            background-color: yellow;
+            height: 100px;
+            width: 18% ;
+            float: left;
+            border: solid 1px;
+        }
+        .orange{
+            background-color: darkorange;
+            height: 100px;
+            width: 81%;
+            margin-left: 6x;
+            float: right;
+            border: solid 1px;
+        }
+        .header::after {
+            clear: both;
+            display: table;
+            content: "";
+        }
+        .body{
+            width: 1000px;
+            margin: auto;
+            margin-top: 6px; 
+        }
+        .hijau{
+            background-color: palegreen;
+            height: 620px;
+            width: 18%;
+            float: left;
+            border: solid 1px;
+        }
+        .abu{
+            background-color: grey;
+            height: 620px;
+            width: 622px;
+            margin-left: 6px ;
+            margin-right: 6px;
+            float: left;
+            border: solid 1px;
+        }
+        .cyan{
+            background-color: cyan;
+            height: 620px;
+            width: 18%;
+            float: right;
+            border: solid 1px;
+        }
+        .abu::after{
+            clear: both;
+            display: table;
+            content: "";
+        }
+        .footer{
+            width: 1000px;
+            margin: auto;
+            margin-top: 6px;  
+        }
+        .biru{
+            background-color: royalblue;
+            height: 100px;
+            width: 998px;
+            float: left;
+            margin-top: 6px;
+            border: solid 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="kuning"></div>
+        <div class="orange"></div>
+    </div>
+    <div class="body">
+        <div class="hijau"></div>
+        <div class="abu"></div>
+        <div class="cyan"></div>
+    </div>
+    <div class="footer">
+        <div class="biru"></div>
+    </div>
+</body>
+</html>
