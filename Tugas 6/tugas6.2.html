@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tugas6.2</title>
+    <style>
+        body{padding:0;margin:0}
+        .flex-container{
+            display: flex;
+            height: 100vh;
+        }
+        .main-konten{
+            display: flex;
+
+        }
+        .header,.footer{
+            height: 20vh;
+            background: #F0E68C;
+        }
+        .artikel,.aside{
+            height: 60vh;
+        }
+        .nav{
+            width: 30vh;
+            background: #FFC0CB;
+            padding: 20px;
+        }
+        .konten{
+            width: 100%;
+        }
+        .artikel{
+            width: 70%;
+        }
+        .aside{
+            width: 30%;
+            background: #00FFFF;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class='nav'>Nav</div>
+        <div class='konten'>
+            <div class='header bg2'>Header</div>
+            <div class='main-konten'>
+                <div class='artikel'>Article</div>
+                <div class='aside'>Aside</div>
+            </div>
+            <div class='footer'>Footer</div>
+        </div>
+    </div>
+</body>
+</html>
