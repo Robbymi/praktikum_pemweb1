@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Rupiah</title>
+</head>
+<body>
+    <div>
+        <fieldset>
+            <legend>Rupiah ke Dollar</legend>
+            <input type="text" id="rupiah" placeholder="Rupiah">
+            <button onclick="hitung()">hitung</button>
+            <div id="hasil" style="float: right;"></div>
+        </fieldset>
+    </div>
+    <script>
+        function hitung(){
+            let rp = Number(document.getElementById("rupiah").value);
+            let hasil = document.getElementById("hasil")
+            hasil.innerHTML ="$" + (rp / 14650);
+
+        }
+    </script>
+</body>
+</html>
